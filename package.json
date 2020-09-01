@@ -5,8 +5,16 @@
   "repository": "https://github.com/lucascarletti/thr3-web-admin.git",
   "author": "Felipe Castilhos <felipecastilhos@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js",
+    "startp": "node app.js"
+  },
   "dependencies": {
     "express": "^4.17.1",
     "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "nodemon": "^2.0.4"
   }
 }

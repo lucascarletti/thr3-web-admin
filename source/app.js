@@ -1,4 +1,6 @@
 const express = require('express')
+const statusCheck = require('./statusCheck.js')
+
 const app  = express()
 
 var listener = app.listen(3000, () => {
@@ -6,5 +8,5 @@ var listener = app.listen(3000, () => {
 })
 
 app.get('/', (req, res) => { 
-    res.send("Hello world")
+    res.send("Status Check: " + statusCheck())
 })

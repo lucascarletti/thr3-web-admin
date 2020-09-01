@@ -1,0 +1,8 @@
+{
+  "name": "thr3-web-admin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lucascarletti/thr3-web-admin.git",
+  "author": "Felipe Castilhos <felipecastilhos@gmail.com>",
+  "license": "MIT"
+}

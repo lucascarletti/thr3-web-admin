@@ -6,8 +6,8 @@
   "author": "Felipe Castilhos <felipecastilhos@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon app.js",
-    "startp": "node app.js"
+    "start": "nodemon source/app.js",
+    "startp": "node source/app.js"
   },
   "dependencies": {
     "express": "^4.17.1",
